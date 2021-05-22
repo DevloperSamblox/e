@@ -1,0 +1,11 @@
+---
+application:
+  name: "botteste"
+  project: "botteste"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-botteste"
+  routes:
+  - application_name: "botteste"
+    paths:
+    - "/*"
